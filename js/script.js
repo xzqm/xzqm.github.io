@@ -641,7 +641,7 @@ function getHitokoto() {
 						id: 'yiyanmotto',
 						duration: 100,
 						effact: 'easeOut',
-						content: '为了正义！'
+						content: '为了和平！'
 					})
 				} else {
 					getHitokoto()
@@ -661,7 +661,7 @@ function getHitokoto() {
 				id: 'yiyanmotto',
 				duration: 100,
 				effact: 'easeOut',
-				content: '生活不止眼前的苟且'
+				content: '问君几多愁'
 			})
 		}
 	})
