@@ -5,9 +5,9 @@
   
   <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="https://github.com/xzqm/xzqm.github.io/blog/"/>
+  <link href="https://xzqm.github.io/blog/"/>
   <updated>2020-02-28T12:48:58.107Z</updated>
-  <id>https://github.com/xzqm/xzqm.github.io/blog/</id>
+  <id>https://xzqm.github.io/blog/</id>
   
   <author>
     <name>xzqm</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>计算机网络</title>
-    <link href="https://github.com/xzqm/xzqm.github.io/blog/2020/02/28/Internet/"/>
-    <id>https://github.com/xzqm/xzqm.github.io/blog/2020/02/28/Internet/</id>
+    <link href="https://xzqm.github.io/blog/2020/02/28/Internet/"/>
+    <id>https://xzqm.github.io/blog/2020/02/28/Internet/</id>
     <published>2020-02-28T03:47:12.028Z</published>
     <updated>2020-02-28T12:48:58.107Z</updated>
     
@@ -39,14 +39,14 @@
     
     
     
-      <category term="-计算机网络" scheme="https://github.com/xzqm/xzqm.github.io/blog/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+      <category term="-计算机网络" scheme="https://xzqm.github.io/blog/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
   <entry>
     <title>数据库原理及应用基础(mysql)</title>
-    <link href="https://github.com/xzqm/xzqm.github.io/blog/2020/02/27/mysql/"/>
-    <id>https://github.com/xzqm/xzqm.github.io/blog/2020/02/27/mysql/</id>
+    <link href="https://xzqm.github.io/blog/2020/02/27/mysql/"/>
+    <id>https://xzqm.github.io/blog/2020/02/27/mysql/</id>
     <published>2020-02-27T14:36:15.000Z</published>
     <updated>2020-02-28T15:49:12.346Z</updated>
     
@@ -61,7 +61,7 @@
     
     
     
-      <category term="-mysql" scheme="https://github.com/xzqm/xzqm.github.io/blog/tags/mysql/"/>
+      <category term="-mysql" scheme="https://xzqm.github.io/blog/tags/mysql/"/>
     
   </entry>
   
