@@ -198,7 +198,7 @@
 
   
     <h3 class="post-title" itemprop="name">
-      <a href="/2020/02/28/HTML/">HTML</a>
+      <a href="/2020/02/28/HTML/">html基础知识</a>
     </h3>
   
 
@@ -213,75 +213,10 @@
     <div class="post-content" id="post-content" itemprop="postContent">
 
     
-        <h1 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h1><h2 id="字体设置"><a href="#字体设置" class="headerlink" title="字体设置"></a>字体设置</h2><ul>
-<li><code>&lt;i&gt;</code>元素被用来传达传统上用<strong><em>斜体</em></strong>表达的意义：外国文字，分类名称，技术术语，一种思想……</li>
-<li><code>&lt;b&gt;</code>元素被用来传达传统上用<strong>粗体</strong>表达的意义：关键字，产品名称，引导句……</li>
-<li><code>&lt;u&gt;</code>元素被用来传达传统上用<strong>下划线</strong>表达的意义：专有名词，拼写错误……</li>
-</ul>
-<h2 id="统一资源定位符URL与路径path"><a href="#统一资源定位符URL与路径path" class="headerlink" title="统一资源定位符URL与路径path"></a>统一资源定位符URL与路径path</h2><ul>
-<li>指向<strong>当前目录</strong>：<code>&lt;a href="index.html"&gt;</code></li>
-<li>指向同级目录的<strong>子目录</strong>：<code>&lt;a href="project/index.html&gt;"</code></li>
-<li>指向<strong>上级目录</strong>：<code>&lt;a href="../pdfs/init.pdf"&gt;</code></li>
-</ul>
-<p><em>超链接也可以连接到文档内的特定部分</em></p>
-<p>给要链接到的元素分配一个id属性：</p>
-<figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h2</span> <span class="attr">id</span>=<span class="string">"Mailing_address"</span>&gt;</span>Mailing address<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>然后链接到那个特定的<code>id</code>，您可以在URL的结尾使用一个井号指向它：</p>
-<figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"contacts.html#Mailing_address"</span>&gt;</span>mailing address<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>也可以同一文档直接链接：</p>
-<figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#Mailing_address"</span>&gt;</span>mailing address<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p><strong>下载时使用download属性</strong>：</p>
-<figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"https://download.firefox.org/?..."</span> <span class="attr">download</span>=<span class="string">"firefox-latest-64bit-installer.exe"</span>&gt;</span>...<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p><strong>电子邮件链接：</strong><code>mailto</code>：link</p>
-<h2 id="高阶文字排版"><a href="#高阶文字排版" class="headerlink" title="高阶文字排版"></a>高阶文字排版</h2><p><strong>描述列表</strong></p>
-<p>描述列表使用与其他列表类型不同的闭合标签— <a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/dl" target="_blank" rel="noopener">``</a>; 此外，每一项都用 <a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/dt" target="_blank" rel="noopener">``</a> (description term) 元素闭合。每个描述都用 <a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/dd" target="_blank" rel="noopener">``</a> (description description) 元素闭合。让我们来完成下面的标记例子:</p>
-<figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">dt</span>&gt;</span>内心独白<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dd</span>&gt;</span>戏剧中，某个角色对自己的内心活动或感受进行念白表演，这些台词只面向观众，而其他角色不会听到。<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">dt</span>&gt;</span>语言独白<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dd</span>&gt;</span>戏剧中，某个角色把自己的想法直接进行念白表演，观众和其他角色都可以听到。<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">dt</span>&gt;</span>旁白<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dd</span>&gt;</span>戏剧中，为渲染幽默或戏剧性效果而进行的场景之外的补充注释念白，只面向观众，内容一般都是角色的感受、想法、以及一些背景信息等。<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dl</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
-
-<p>浏览器的默认样式会在<strong>描述列表的描述部分</strong>（description description）和<strong>描述术语</strong>（description terms）之间产生缩进。</p>
-<p>下面是前述代码的显示结果：</p>
-<ul>
-<li><p>内心独白</p>
-<p>戏剧中，某个角色对自己的内心活动或感受进行念白表演，这些台词只面向观众，而其他角色不会听到。</p>
+        <h2 id="字体设置"><a href="#字体设置" class="headerlink" title="字体设置"></a>字体设置</h2><ul>
+<li><p><code>&lt;i&gt;</code>元素被用来传达传统上用<strong><em>斜体</em></strong>表达的意义：外国文字，分类名称，技术术语，一种思想……</p>
 </li>
-<li><p>语言独白</p>
-<p>戏剧中，某个角色把自己的想法直接进行念白表演，观众和其他角色都可以听到。</p>
-</li>
-<li><p>旁白</p>
-<p>戏剧中，为渲染幽默或戏剧性效果而进行的场景之外的补充注释念白，只面向观众，内容一般都是角色的感受、想法、以及一些背景信息等。</p>
-</li>
-</ul>
-<p>请注意：一个术语 <code>可以同时有多个描述</code>，比如说：</p>
-<ul>
-<li><p>旁白</p>
-<p>戏剧中，为渲染幽默或戏剧性效果而进行的场景之外的补充注释念白，只面向观众，内容一般都是角色的感受、想法、以及一些背景信息等。</p>
-</li>
-</ul>
-<p>  写作中，指与当前主题相关的一段内容，通常不适于直接置于内容主线中，因此置于附近的其它位置（通常位于主线内容旁边一个文本框内）。</p>
-<p><strong>块引用</strong></p>
-<p>如果一个块级内容（一个段落、多个段落、一个列表等）从其他地方被引用，你应该把它用<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/blockquote" target="_blank" rel="noopener"><code>blockquote</code></a>元素包裹起来表示，并且在<code>cite</code>属性里用URL来指向引用的资源。</p>
-<figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">cite</span>=<span class="string">"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>The <span class="tag">&lt;<span class="name">strong</span>&gt;</span>HTML <span class="tag">&lt;<span class="name">code</span>&gt;</span><span class="symbol">&amp;lt;</span>blockquote<span class="symbol">&amp;gt;</span><span class="tag">&lt;/<span class="name">code</span>&gt;</span> Element<span class="tag">&lt;/<span class="name">strong</span>&gt;</span> (or <span class="tag">&lt;<span class="name">em</span>&gt;</span>HTML Block</span><br><span class="line">  Quotation Element<span class="tag">&lt;/<span class="name">em</span>&gt;</span>) indicates that the enclosed text is an extended quotation.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure><script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
+<li><p><code>&lt;b&gt;</code>元素被用来传达传统上用<strong>粗体</strong>表达的意义：关键字，产品名称，引导句……</p></li></ul>
     
         <div class="post-more-div">
             <a href="/2020/02/28/HTML/" class="post-more waves-button">
@@ -292,7 +227,7 @@
     
     <div class="post-footer">
         
-	<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%9D%82%E7%AC%94%E8%AE%B0/" rel="tag">-杂笔记</a></li></ul>
+	<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HTML%E7%AC%94%E8%AE%B0/" rel="tag">-HTML笔记</a></li></ul>
 
     </div>
     
@@ -336,7 +271,7 @@
     
     <div class="post-footer">
         
-	<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">-笔记</a></li></ul>
+	<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AC%94%E8%AE%B0/" rel="tag">-数据库笔记</a></li></ul>
 
     </div>
     
