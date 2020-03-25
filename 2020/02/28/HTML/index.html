@@ -6,13 +6,13 @@
     
     
     
-    <title>XZQM&#39;S Blog</title>
+    <title>HTML | XZQM&#39;S Blog</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     
     <meta name="theme-color" content="#77AAFF">
     
     
-    <meta name="keywords" content="">
+    <meta name="keywords" content="-杂笔记">
     
     
 
@@ -39,14 +39,17 @@
 
 
     
-    <meta name="description" content="计算机&amp;笔记&amp;心得&amp;闲聊">
-<meta property="og:type" content="website">
-<meta property="og:title" content="XZQM&#39;S Blog">
-<meta property="og:url" content="https://github.com/xzqm/xzqm.github.io.git/index.html">
+    <meta name="description" content="基础知识字体设置 &lt;i&gt;元素被用来传达传统上用斜体表达的意义：外国文字，分类名称，技术术语，一种思想…… &lt;b&gt;元素被用来传达传统上用粗体表达的意义：关键字，产品名称，引导句…… &lt;u&gt;元素被用来传达传统上用下划线表达的意义：专有名词，拼写错误……  统一资源定位符URL与路径path 指向当前目录：&lt;a href&#x3D;&quot;index.html&quot;&gt; 指向同">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HTML">
+<meta property="og:url" content="https://github.com/xzqm/xzqm.github.io.git/2020/02/28/HTML/index.html">
 <meta property="og:site_name" content="XZQM&#39;S Blog">
-<meta property="og:description" content="计算机&amp;笔记&amp;心得&amp;闲聊">
+<meta property="og:description" content="基础知识字体设置 &lt;i&gt;元素被用来传达传统上用斜体表达的意义：外国文字，分类名称，技术术语，一种思想…… &lt;b&gt;元素被用来传达传统上用粗体表达的意义：关键字，产品名称，引导句…… &lt;u&gt;元素被用来传达传统上用下划线表达的意义：专有名词，拼写错误……  统一资源定位符URL与路径path 指向当前目录：&lt;a href&#x3D;&quot;index.html&quot;&gt; 指向同">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-02-28T03:47:12.028Z">
+<meta property="article:modified_time" content="2020-03-25T03:37:27.945Z">
 <meta property="article:author" content="xzqm">
+<meta property="article:tag" content="-杂笔记">
 <meta name="twitter:card" content="summary">
     
         <link rel="alternate" type="application/atom+xml" title="XZQM&#39;S Blog" href="/atom.xml">
@@ -62,7 +65,7 @@
 
 <body>
     <div id="loading" class="active"></div>
-    <aside id="menu"   >
+    <aside id="menu"  class="hide" >
   <div class="inner flex-row-vertical">
     <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
         <i class="icon icon-lg icon-close"></i>
@@ -83,7 +86,7 @@
     <div class="scroll-wrap flex-col">
       <ul class="nav">
         
-              <li class="waves-block waves-effect active">
+              <li class="waves-block waves-effect">
                   <a href="/"  >
                     <i class="icon icon-lg icon-home"></i>
                     <span>主 页</span><i class="icon icon-lg icon-caret-left"></i>
@@ -149,7 +152,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">XZQM&#39;S Blog</div>
+        <div class="flex-col header-title ellipsis">HTML</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -166,19 +169,16 @@
         </a>
     </div>
 </header>
-<header class="content-header index-header">
+<header class="content-header post-header">
     
     
     <div class="container fade-scale">
         <div id="myheader">
             <h1 class="title">
-                 
-                    XZQM&#39;S Blog
                 
             </h1>
             <h5 class="subtitle">
                 
-                    在Web全栈的道路上努力前行
                 
             </h5>
         </div>
@@ -186,34 +186,47 @@
 
 </header>
 
+
 <div class="container body-wrap">
-    <ul class="post-list">
     
-        <li class="post-list-item fade">
-            <article id="post-HTML"
-  class="article-card article-type-post" itemprop="blogPost">
+    <aside class="post-widget">
+        <nav class="post-toc-wrap" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#基础知识"><span class="post-toc-number">1.</span> <span class="post-toc-text">基础知识</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#字体设置"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">字体设置</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#统一资源定位符URL与路径path"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">统一资源定位符URL与路径path</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#高阶文字排版"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">高阶文字排版</span></a></li></ol></li></ol>
+        </nav>
+    </aside>
+   
+<article id="post-HTML"
+  class="post-article article-type-post fade" itemprop="blogPost">
 
-    
+    <div class="post-card">
+        <h1 class="post-card-title">HTML</h1>
+        <div class="post-meta">
+            <i class="icon icon-lg icon-calendar-o"></i>
+            发表于
+            <time class="post-time" title="2020-02-28 11:47:12" datetime="2020-02-28T03:47:12.028Z"  itemprop="datePublished">2020-02-28</time>
+
+            <br id="mybreak"/>
+            
+<script>
+	mybreak.style="display:none";
+</script>
 
 
-  
-    <h3 class="post-title" itemprop="name">
-      <a href="/2020/02/28/HTML/">HTML</a>
-    </h3>
-  
+            <i>·</i>
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>次浏览
+</span>
 
 
-
-
-     <div class="post-meta">
-        <time class="post-time" title="2020-02-28 11:47:12" datetime="2020-02-28T03:47:12.028Z"  itemprop="datePublished">2020-02-28</time>
-
-    </div>
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        <h1 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h1><h2 id="字体设置"><a href="#字体设置" class="headerlink" title="字体设置"></a>字体设置</h2><ul>
+        </div>
+        <div class="post-count-custom">
+            <i class="icon icon-lg icon-comment-o"></i>
+            阅读本文可能花费您&nbsp;<span class="post-count">4</span>&nbsp;分钟
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h1 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h1><h2 id="字体设置"><a href="#字体设置" class="headerlink" title="字体设置"></a>字体设置</h2><ul>
 <li><code>&lt;i&gt;</code>元素被用来传达传统上用<strong><em>斜体</em></strong>表达的意义：外国文字，分类名称，技术术语，一种思想……</li>
 <li><code>&lt;b&gt;</code>元素被用来传达传统上用<strong>粗体</strong>表达的意义：关键字，产品名称，引导句……</li>
 <li><code>&lt;u&gt;</code>元素被用来传达传统上用<strong>下划线</strong>表达的意义：专有名词，拼写错误……</li>
@@ -282,71 +295,117 @@
             document.body.appendChild(img);
           });
       </script>
-    
-        <div class="post-more-div">
-            <a href="/2020/02/28/HTML/" class="post-more waves-button">
-                Continue reading...
-            </a>
         </div>
-    </div>
-    
-    <div class="post-footer">
+
+        <blockquote class="post-copyright">
+    <div class="content">
         
+<span class="post-time">
+    Last updated: <time datetime="2020-03-25T03:37:27.945Z" itemprop="dateUpdated">2020-03-25 11:37:27</time>
+</span>
+
+
+        
+        原文链接：<a href="/2020/02/28/HTML/" target="_blank" rel="external">https://github.com/xzqm/xzqm.github.io.git/2020/02/28/HTML/</a>
+        
+    </div>
+    <footer>
+        <div onclick="location.href='https://github.com/xzqm/xzqm.github.io.git'">
+            <img src="/img/avatar.jpg" alt="xzqm">
+            <a>xzqm</a>
+        </div>
+    </footer>
+</blockquote>
+
+        
+    <div class="page-reward">
+        <nav class="myreward">
+            <a id="rewardBtn" href="javascript:;"><span>打&nbsp;赏</span><span>装成好像很多人打赏的样子</span></a>
+        </nav>
+    </div>
+
+
+
+        <div class="post-footer">
+            
 	<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%9D%82%E7%AC%94%E8%AE%B0/" rel="tag">-杂笔记</a></li></ul>
 
-    </div>
-    
-</article>
 
-        </li>
-    
-        <li class="post-list-item fade">
-            <article id="post-mysql"
-  class="article-card article-type-post" itemprop="blogPost">
-
+            
+<div class="page-share-wrap">
     
 
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://github.com/xzqm/xzqm.github.io.git/2020/02/28/HTML/&title=《HTML》 — XZQM'S Blog&pic=https://github.com/xzqm/xzqm.github.io.git/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://github.com/xzqm/xzqm.github.io.git/2020/02/28/HTML/&title=《HTML》 — XZQM'S Blog&source=计算机&笔记&心得&闲聊" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/xzqm/xzqm.github.io.git/2020/02/28/HTML/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《HTML》 — XZQM'S Blog&url=https://github.com/xzqm/xzqm.github.io.git/2020/02/28/HTML/&via=https://github.com/xzqm/xzqm.github.io.git" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://github.com/xzqm/xzqm.github.io.git/2020/02/28/HTML/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
 
-  
-    <h3 class="post-title" itemprop="name">
-      <a href="/2020/02/27/mysql/">数据库原理及应用基础(mysql)</a>
-    </h3>
-  
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
 
 
 
-
-     <div class="post-meta">
-        <time class="post-time" title="2020-02-27 22:36:15" datetime="2020-02-27T14:36:15.000Z"  itemprop="datePublished">2020-02-27</time>
-
-    </div>
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        <h1 id="第一章-数据库系统概论"><a href="#第一章-数据库系统概论" class="headerlink" title="第一章-数据库系统概论"></a>第一章-数据库系统概论</h1><h2 id="第一节"><a href="#第一节" class="headerlink" title="第一节"></a>第一节</h2><p><strong>介绍</strong></p>
-<p>数据库，就是数据的仓库，数据存放的地方。数据库早已融入到我们的日常生活中，例如通讯录就是一种小数据库，可以进行手工管理，而像图书馆这样的大型数据库必须由计算机进行管理。计算机的三大主要应用领域是科学计算，过程控制，数据处理（70%）。</p>
-    
-        <div class="post-more-div">
-            <a href="/2020/02/27/mysql/" class="post-more waves-button">
-                Continue reading...
-            </a>
         </div>
     </div>
-    
-    <div class="post-footer">
-        
-	<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">-笔记</a></li></ul>
 
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2020/02/27/mysql/" id="post-next" class="post-nav-link">
+        <h4 class="title" data-hover="下一篇：数据库原理及应用基础(mysql)">下一篇：数据库原理及应用基础(mysql)</h4>
+      </a>
     </div>
+  
+</nav>
+
+
+
     
+    
+
+    
+
+    
+
+
 </article>
-
-        </li>
-    
-    </ul>
-
-    
 
 </div>
 
@@ -382,8 +441,83 @@
 
     </main>
     
+        
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        <span>感谢您的鼓励支持！</span>
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" data-img="/img/dog.png" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/img/wechat.png" data-alipay="/img/alipay.jpg">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechatPay">&nbsp;&nbsp;微信&nbsp;&nbsp;</span>
+                <span class="reward-toggle-item alipayPay">支付宝</span>
+            </div>
+        </label>
+        
+        <i class="icon icon-caret-up"></i>
+    </div>
+</div>
+
+
+    
     <div class="mask" id="mask"></div>
 <a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://github.com/xzqm/xzqm.github.io.git/2020/02/28/HTML/&title=《HTML》 — XZQM'S Blog&pic=https://github.com/xzqm/xzqm.github.io.git/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://github.com/xzqm/xzqm.github.io.git/2020/02/28/HTML/&title=《HTML》 — XZQM'S Blog&source=计算机&笔记&心得&闲聊" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/xzqm/xzqm.github.io.git/2020/02/28/HTML/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《HTML》 — XZQM'S Blog&url=https://github.com/xzqm/xzqm.github.io.git/2020/02/28/HTML/&via=https://github.com/xzqm/xzqm.github.io.git" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://github.com/xzqm/xzqm.github.io.git/2020/02/28/HTML/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p class="wechatshare">扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACLUlEQVR42u3aQW4CMQwFUO5/aSp11UoFvu20Kp6X1QjQJC8LE9u53eJx/xxfn5Px6A3Jm2+/MTAwMN6WkSzl+bIe/b76SXXLMDAwrsaohsIkLOZBOXl+sWYMDAyMOHS+CIvjQI+BgYExSS+rSezzjcDAwMDoBb7k2+e856RRKMfAwFjN6DUG/ub51/sbGBgY/55xL46zDcj7oYGBgbGbkaSXZ1sFvYAezYKBgbGUUU0se23LKiDfVgwMjOswJle4qiEyaQ8caAlgYGCsZuQl+97liVPb9O0ZAwNjNaN6kaJ3yKtikoD7IuxiYGAsYiRJY3VxvQS41wz44X8DAwNjHWNSuaouKPl9nui+eDMGBsYiRnI4mwTZSYJaOCBiYGBcgJEktL2SWX6kqzYvMTAwrsM4FWSPXfAqvr9c7cPAwHhbRt4GmATTeahtXhfDwMBYxOilpnmhrVr5yw+aGBgYuxmToDm5QpFvQTQLBgbGakYeOm/xyAPuZMuiQyEGBsYKRq+s1rty0UtxCzk3BgbGakaylGodPrl40Ut3o0MhBgbGIsa8+NVrAEzamRgYGFdj3ItjcsMhD+tJoe3bMwYGxmpGdbLe5YnkAJrPNSkFYmBgvC+jmlhOguaBk+yjLcDAwLgAIy+f5VOeajNE68HAwMCIr0RMQnCv8YmBgYGRT3a2tZk0FUYBFwMD4w0ZSRKbNDiTpeTbNOrEYmBgLGJMEsh8cfPSf76tGBgYixgfD4cZBqzDyGEAAAAASUVORK5CYII=" alt="微信分享二维码">
+</div>
+
+
 
 
     <!-- waves按钮特效 -->
@@ -391,7 +525,7 @@
 
 <!-- 主题配置脚本 -->
 <script>
-var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
 </script>
 
 <!-- jquery -->
